@@ -4,8 +4,18 @@
 
 # `#05` Django: Wprowadzenie
 
-Tutaj treść
+1. Stwórz szablon HTML zawierający formularz z jednym polem tekstowym `name` i przyciskiem „Wyślij”. Formularz powinien przesyłać dane metodą POST.
+2. W widoku zaimplementuj obsługę dwóch metod:
+   - dla zapytania GET wyświetl formularz,
+   - dla zapytania POST pobierz przesłane imię i zwróć odpowiedź w formacie:
+     
+     Dziękujemy, <name>!
+3. Zabezpiecz formularz tokenem CSRF.
+4. Skonfiguruj routing tak, aby formularz był dostępny pod adresem `/form/`.
+5. Sprawdź w przeglądarce, czy formularz działa prawidłowo i zwraca komunikat po wysłaniu danych.
 
+**Wskazówka:**
+Przypomnij sobie, jak w Django sprawdzić metodę zapytania w obiekcie `request` i jak odczytać dane przesłane formularzem metodą POST.
 
 &nbsp;
 > :no_entry: *Jeśli nie posiadasz materiałów do tego zadania tj. **PDF, projekt + Code Review**, znajdziesz je na stronie [devmentor.pl](https://devmentor.pl/workshop-django-introduction)*

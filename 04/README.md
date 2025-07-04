@@ -4,7 +4,16 @@
 
 # `#04` Django: Wprowadzenie
 
-Tutaj treść
+
+1. Skonfiguruj w projekcie adres URL w taki sposób, aby ścieżka przyjmowała jeden parametr tekstowy (np. `/greet/<name>/`).
+2. W widoku odczytaj ten parametr i zwróć odpowiedź w formacie:
+   
+   Witaj, `<name>`!
+
+3. Otwórz w przeglądarce adres http://127.0.0.1:8000/greet/Ala/ i upewnij się, że wyświetla się poprawna wiadomość.
+
+**Wskazówka:**
+Sprawdź w dokumentacji Django, jak w funkcji `path()` definiować dynamiczne segmenty URL i jak są one przekazywane do widoku.
 
 
 &nbsp;

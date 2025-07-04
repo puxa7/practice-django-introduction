@@ -4,8 +4,17 @@
 
 # `#03` Django: Wprowadzenie
 
+1. W folderze swojej aplikacji utwórz katalog `templates/first_app/`.
+2. Stwórz szablon `info.html`, w którym wyświetlisz wartości zmiennych `author` i `year` w odpowiednich miejscach nagłówka i paragrafu.
+3. W widoku przekaż do szablonu dane: `author` ustaw na „Anna Nowak”, a `year` na aktualny rok (np. za pomocą `datetime.now().year`).
+4. Skonfiguruj routing tak, aby widok był dostępny pod adresem `/info/`.
+5. Otwórz w przeglądarce adres http://127.0.0.1:8000/info/ i sprawdź, czy wyświetla się strona z napisem:
+   
+   Autor: Anna Nowak  
+   Rok: [bieżący rok]
 
-Tutaj treść
+**Wskazówka:**
+Zadbaj o poprawną strukturę katalogów dla szablonów — Django domyślnie przeszukuje folder `templates` wewnątrz aplikacji.
 
 
 &nbsp;
